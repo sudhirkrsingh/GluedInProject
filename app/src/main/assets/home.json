@@ -1,0 +1,67 @@
+{
+  "heroId": "sintel",
+  "content": [
+    {
+      "id": "bunny",
+      "title": "Big Buck Bunny",
+      "description": "A gentle giant takes on three mischievous woodland creatures in this vibrant animated short.",
+      "genre": "Animation",
+      "duration": "10 min",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=500&q=80",
+      "bannerUrl": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1200&q=85",
+      "videoUrl": "https://media.w3.org/2010/05/bunny/movie.mp4"
+    },
+    {
+      "id": "sintel",
+      "title": "Sintel \u00b7 Official trailer",
+      "description": "A young explorer follows a mysterious trail in search of her lost dragon companion.",
+      "genre": "Fantasy",
+      "duration": "1 min",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=500&q=80",
+      "bannerUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=85",
+      "videoUrl": "https://media.w3.org/2010/05/sintel/trailer.mp4"
+    },
+    {
+      "id": "steel",
+      "title": "Big Buck Bunny \u00b7 Preview",
+      "description": "A short introduction to the colourful woodland world of Big Buck Bunny.",
+      "genre": "Animation",
+      "duration": "1 min",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=500&q=80",
+      "bannerUrl": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1200&q=85",
+      "videoUrl": "https://media.w3.org/2010/05/bunny/trailer.mp4"
+    },
+    {
+      "id": "dream",
+      "title": "Big Buck Bunny \u00b7 HLS edition",
+      "description": "Meet a gentle giant and his mischievous neighbours in this adaptive-streaming edition of the animated short.",
+      "genre": "Animation",
+      "duration": "10 min",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=500&q=80",
+      "bannerUrl": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1200&q=85",
+      "videoUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
+    }
+  ],
+  "rails": [
+    {
+      "id": "trending",
+      "title": "Trending now",
+      "contentIds": [
+        "sintel",
+        "bunny",
+        "steel",
+        "dream"
+      ]
+    },
+    {
+      "id": "recommended",
+      "title": "Picked for you",
+      "contentIds": [
+        "dream",
+        "steel",
+        "bunny",
+        "sintel"
+      ]
+    }
+  ]
+}
